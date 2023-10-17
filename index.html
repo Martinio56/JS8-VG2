@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Oppgave 1</h2>
+
+    <p>Konverter Grader</p>
+    <input class="boks" type="text" id="cf" placeholder="Grader">
+    <button onclick="Fkonvert()">Til °F</button>
+    <button onclick="Ckonvert()">Til °C</button>
+
+    <h2>Oppgave 2</h2>
+
+    <p>Sjekk mellom to tall</p>
+    <input class="boks" type="text" id="tall1" placeholder="Tall 1">
+    <input class="boks" type="text" id="tall2" placeholder="Tall 2">
+    <input class="boks" type="text" id="svar" placeholder="Svar" readonly="Svar">
+    <button onclick="Sjekktall()">Sjekk Tallene</button>
+
+    <h2>Oppgave 3</h2>
+
+    <p>Sjekk om det er Palindrom</p>
+    <input class="boks" type="text" id="tekst" placeholder="Palindrom">
+    <input class="boks" type="text" id="svar2" placeholder="Svar" readonly="Svar2">
+    <button onclick="Palindrom()">Sjekk Palindrom</button>
+
+    <h2>Oppgave 4</h2>
+
+    <p>Fargeendring</p>
+    <button onclick="Skiftfarge('rød')">Rød</button>
+    <button onclick="Skiftfarge('blå')">Blå</button>
+    <button onclick="Skiftfarge('tilfeldig')">Tilfeldig</button>
+
+    <div class="flex">
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+    </div>
+
+    <h2>Oppgave 5</h2>
+
+    <p>Gjem eller vis Div Element</p>
+    <button onclick="gjemDiv('gjem')">Gjem</button>
+    <button onclick="gjemDiv('vis')">Vis</button>
+    <button onclick="gjemDiv('begge')">Begge</button>  
+    
+    <div class="div" id="divVis">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque sapiente asperiores nam reprehenderit dolore perspiciatis quis non est numquam debitis adipisci beatae doloribus cum, assumenda, deserunt repellendus blanditiis, recusandae alias?
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

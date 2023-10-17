@@ -1,0 +1,33 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+#div1 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 0px;
+    border: 2px black solid;
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 0px;
+    border: 2px black solid;
+}
+
+#div3 {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 0px;
+    border: 2px black solid;
+}
+
+.div {
+    border: 3px blue solid;
+    margin-top: 10px;
+}
