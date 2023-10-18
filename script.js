@@ -71,7 +71,7 @@ fåTilfeldigFarge = () => {
 //Oppgave 5--------------------------------------------------------------------------------------------------------------------------
 
 gjemDiv = (tilstand) => {
-var DivVis = document.getElementById("divVis");
+    var DivVis = document.getElementById("divVis");
 
     if (tilstand === "gjem") {
         DivVis.style.visibility = "Hidden";
@@ -81,6 +81,15 @@ var DivVis = document.getElementById("divVis");
     }
 }
 
-//Klarer ikke den tredje knappen
+gjemDiv2 = () => {
+    var DivVis = document.getElementById("divVis");
+    var cS = window.getComputedStyle(DivVis);
+
+    if (cS.visibility === "hidden") {
+        DivVis.style.visibility = "";
+    } else {
+        DivVis.style.visibility = "hidden";
+    }
+}
 
 //-----------------------------------------------------------------------------------------------------------------------------------
